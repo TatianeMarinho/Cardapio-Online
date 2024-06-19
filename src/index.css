@@ -20,3 +20,7 @@ button {
 button:hover {
   background-color: #f5c33a;
 }
+
+.link_button {
+  text-decoration: none;
+}
