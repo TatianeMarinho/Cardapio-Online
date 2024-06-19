@@ -1,10 +1,11 @@
 import LeftBox from "../../components/LeftBox";
-import RigthBox from "../../components/RigthBox";
+import RigthBox from "../../components/RightBox";
+import './home.css';
 
 
 function Home() {
     return (
-        <main>
+        <main className="main_home">
             <LeftBox />
             <RigthBox />
         </main>

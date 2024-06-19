@@ -1,0 +1,16 @@
+.left_box {
+    width: 30rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    text-align: center;
+    border: 0.3rem solid #dbdad8;
+    border-radius: 1rem;
+}
+
+#bem_vindo {
+    font-size: 1.6rem;
+}
+
+.left_box img {
+    height: 5rem;
+}

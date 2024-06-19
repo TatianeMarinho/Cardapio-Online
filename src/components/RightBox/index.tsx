@@ -1,8 +1,10 @@
+import './rigthBox.css';
+
 function RigthBox() {
     return (
-        <section>
+        <section className="right_box">
             <button>Acessar Cardápio</button>
-            <h2>OU</h2>
+            <p>OU</p>
             <button>Fazer um pedido</button>
         </section>
     )
