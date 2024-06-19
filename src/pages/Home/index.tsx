@@ -1,8 +1,14 @@
+import LeftBox from "../../components/LeftBox";
+import RigthBox from "../../components/RightBox";
+import './home.css';
+
+
 function Home() {
     return (
-        <div>
-            <h1>home</h1>
-        </div>
+        <main className="main_home">
+            <LeftBox />
+            <RigthBox />
+        </main>
     )
 }
 
