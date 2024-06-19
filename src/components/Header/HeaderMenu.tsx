@@ -1,3 +1,5 @@
+import './headerMenu.css';
+
 function HeaderMenu() {
     return (
         <header>
