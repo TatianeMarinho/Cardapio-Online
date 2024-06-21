@@ -1,8 +1,15 @@
+import CardItemMenu from "../CardItemMenu/CardItemMenu";
+
 function ArticleMenu() {
     return (
         <article>
-            {/* // section1 */}
-            <p>aritcle</p>
+            <section id="snack" >Refeições</section>
+                <CardItemMenu />
+            <section id="commercial" >Comerciais</section>
+            <section id="portion" >Porções</section>
+            <section id="pasta" >Massas</section>
+            <section id="drinks" >Bebidas</section>
+            <section id="dessert">Sobremesas</section>
         </article>
     )
 }

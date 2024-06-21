@@ -1,0 +1,22 @@
+.card_item {
+    padding: 1rem;
+}
+
+.card_item h5 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #333333;
+}
+
+.card_item .item_info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+
+.card_item .portion_info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
