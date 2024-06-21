@@ -1,6 +1,11 @@
 nav {
     background-color: #dbdbe0;
     padding: 1rem;
+    position: fixed;
+    top: 4.5rem;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 nav ul {
@@ -8,7 +13,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 nav ul li {

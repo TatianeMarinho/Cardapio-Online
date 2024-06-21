@@ -1,17 +1,24 @@
+import { CardInfoTypes } from '../../types/dataTypes';
 import './cardItemMenu.css';
 
-function CardItemMenu () {
+function CardItemMenu (info: CardInfoTypes) {
     return (
         <div className="card_item">
             <div className="item_info">
-                <h5>nome</h5>                
+                <h5>{ info.name }</h5>                
                 <h5>Valor</h5>                            
             </div>
-            <p>description</p>
+            <p>{ info.description }</p>
             <div className="portion_info">
-                <p>portion</p>
-                <p>descricao detalhada da porçao</p>
-                <p>price</p>
+                { info.characteristics.map((item, index) => {
+                    return (
+                        <div key={index}>
+                            <p>{ item.portion }</p>
+                            <p>{ item.description }</p>
+                            <p>{ item.price }</p>
+                        </div>
+                    )
+                })}
             </div>
         </div>
     )
