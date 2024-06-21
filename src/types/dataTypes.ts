@@ -47,3 +47,18 @@ type dataTypes = {
         }
     ],
 };
+
+export type CardInfoTypes = {
+    id: number,
+    name: string,
+    description: string,
+    type?: 'snack' | 'portion' | 'commercial' | 'pasta' | 'dessert' | 'others',
+    image: string,
+    characteristics: {
+            portion: string,
+            description: string,
+            price: number,
+        } []
+}
+
+export default dataTypes;
